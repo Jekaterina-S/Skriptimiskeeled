@@ -2,7 +2,7 @@ Option Explicit
 
 ' Check arguments
 If WScript.Arguments.Count <> 2 Then
-    WScript.Echo "Usage: cscript sort.vbs <SourceFolder> <TargetFolder>"
+    WScript.Echo "Usage: cscript picturesort.vbs <SourceFolder> <TargetFolder>"
     WScript.Quit
 End If
 
